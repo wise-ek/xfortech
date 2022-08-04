@@ -13,7 +13,31 @@ const textSize20 = 20.0;
 const textSize12 = 12.0;
 const textSize25 = 25.0;
 
+TextStyle mentorText = const TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 14,
+    color: myBlackColor,
+);
+TextStyle mentorTex2 = const TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 10,
+    color: myBlackColor,
+);
+TextStyle mentorTex3 = const TextStyle(
+    fontSize: 10,
+    color: myGrayColor,
+);
 
+TextStyle cardText2 = const TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 12,
+    color: myGrayColor,
+    );
+TextStyle cardText = const TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 11,
+    color: myBlackColor,
+    );
 TextStyle textStyle3 = const TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: 8,
