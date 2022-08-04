@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   lineSpace(10, 0),
                   Text(
-                    "Continnue where you left of",
+                    "Continue where you left of",
                     style: textStyle9,
                   ),
                   Padding(
@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                                 top: 0,
                                 bottom: 0,
                                 right: 0,
-                                child: Container(
+                                child: SizedBox(
                                   width: 100,
                                   height: 200,
                                   // color: Colors.red,

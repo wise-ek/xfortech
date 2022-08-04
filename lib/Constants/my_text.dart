@@ -68,3 +68,10 @@ TextStyle cardTitle = const TextStyle(
     fontSize: textSize25,
     color: myWhiteColor,
     fontWeight: FontWeight.bold);
+TextStyle buttonText = const TextStyle(
+
+    fontWeight: FontWeight.w500,
+    fontSize: 18,
+    letterSpacing: 1.0,
+    color: myWhiteColor,
+);
