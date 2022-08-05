@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:xfortech/Constants/my_colors.dart';
+import 'package:xfortech/Constants/my_functions.dart';
 import 'package:xfortech/Widgets/app_bar_widget.dart';
 
 import '../Constants/my_text.dart';
+import 'home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -145,7 +147,11 @@ class LoginScreen extends StatelessWidget {
                           Column(
                             children: [
                               lineSpace(10, 0),
-                              button("LOGIN"),
+                              InkWell(
+                                onTap: (){
+                                  callNext(HomeScreen(), context);
+                                },
+                                  child: button("LOGIN")),
                               lineSpace(20, 0),
                               Row(children: const <Widget>[
                                 Expanded(

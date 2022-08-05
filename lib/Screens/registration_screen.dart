@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:xfortech/Constants/my_functions.dart';
 
 import '../Constants/my_colors.dart';
 import '../Widgets/app_bar_widget.dart';
+import 'login_screen.dart';
 
 class RegistrationScreen extends StatelessWidget {
   RegistrationScreen({Key? key}) : super(key: key);
@@ -64,7 +66,11 @@ class RegistrationScreen extends StatelessWidget {
                   ], //<Widget>[]
                 ),
                 lineSpace(10, 0),
-                button("REGISTER"),
+                InkWell(
+                  onTap: (){
+                    callNext(LoginScreen(), context);
+                  },
+                    child: button("REGISTER")),
                 lineSpace(20, 0),
 
               ],
